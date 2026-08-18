@@ -1,23 +1,17 @@
-BtcNodeStat
-===========
+# BtcNodeStat
 
-display statistiques for a bitcoind node
+Display statistics for a bitcoin node
 
-ex : http://5.135.182.69
+* Created by ma2thieu in 2014
+* Re-written by Google AI in 2026
+* Tested by m28ray
 
 
-bower
------
+
+## cron
 ```
-bower install
-```
-
-
-cron
-----
-```
-*/1 * * * * bitcoind getblockchaininfo > /var/www/getblockchaininfo.json
-*/1 * * * * bitcoind getnetworkinfo > /var/www/getnetworkinfo.json
-*/1 * * * * bitcoind getnettotals > /var/www/getnettotals.json
-*/1 * * * * bitcoind getpeerinfo > /var/www/getpeerinfo.json
+*/1 * * * * bitcoin-cli getblockchaininfo > /var/www/getblockchaininfo.json
+*/1 * * * * bitcoin-cli getnetworkinfo > /var/www/getnetworkinfo.json
+*/1 * * * * bitcoin-cli getnettotals > /var/www/getnettotals.json
+*/1 * * * * bitcoin-cli getpeerinfo > /var/www/getpeerinfo.json
 ```
