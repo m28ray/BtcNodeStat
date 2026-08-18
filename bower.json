@@ -1,9 +1,0 @@
-{
-    "name": "btcnode",
-    "dependencies": {
-        "jquery": "latest",
-        "bootstrap": "3.*",
-        "mustache": "latest"
-    }
-}
-
