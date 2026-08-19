@@ -2,7 +2,7 @@
 
 Display statistics for a bitcoin node
 
-* Created by ma2thieu in 2014
+* Created by [ma2thieu](https://github.com/ma2thieu/BtcNodeStat) in 2014
 * Re-written by Google AI in 2026
 * Tested by m28ray
 
@@ -15,3 +15,9 @@ This rewrite completely removes **jQuery** and **Mustache**. Instead, it uses **
 */1 * * * * bitcoin-cli getnettotals > /var/www/getnettotals.json
 */1 * * * * bitcoin-cli getpeerinfo > /var/www/getpeerinfo.json
 ```
+
+## Screenshots
+![Web layout dark theme](/Screenshot1.png)
+![Web layout light theme](/Screenshot2.png)
+![Mobile layout dark theme](/Screenshot4.png)
+![Mobile layout light theme](/Screenshot3.png)
